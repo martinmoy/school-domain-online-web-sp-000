@@ -7,5 +7,5 @@ class School
   end
 
 
-  
+
 end
