@@ -1,9 +1,10 @@
 # code here!
 class School
-  attr_accessor :name
+  attr_accessor :name, :roster
 
-  def initialize(name)
+  def initialize(name, roster)
     @name  = name
+    @roster = Hash.new { |name, grade| name[grade] = []}
   end
 
 
